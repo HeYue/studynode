@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Layout,message } from 'antd';
+import styles from '../App.less';
 
 const { Content } = Layout;
 
@@ -11,14 +12,12 @@ class Introducewho extends Component {
 
   fetchUsers(){
     message.info('request user list from app server..')
-    return fetch('api/users', {accpet: "application/json"}).then(res => {return res.json().then(json => {this.setState({users: json})})})
+    // return fetch('api/users', {accpet: "application/json"}).then(res => {return res.json().then(json => {this.setState({users: json})})})
   }
   render() {
     return (
       <div>
-        <Layout>
-          <Content style={{padding: '10px'}}>
-            <p className="App-intro" onClick={this.fetchUsers.bind(this)}>
+        <div className={styles.AppIntro} onClick={this.fetchUsers.bind(this)}>
               To get started, edit <code>src/App.js</code> and save to reload.
               <br/>test here
               <br/>test here
@@ -29,10 +28,7 @@ class Introducewho extends Component {
               <br/>test here
               <br/>test here
               <br/>last
-            </p>
-            {/*{this.state.users}*/}
-          </Content>
-        </Layout>
+            </div>
       </div>
     );
   }

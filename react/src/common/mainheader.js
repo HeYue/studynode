@@ -6,8 +6,7 @@ import Debounce from 'lodash-decorators/debounce';
 // import { Link } from 'dva/router';
 import NoticeIcon from 'ant-design-pro/lib/NoticeIcon';
 import HeaderSearch from 'ant-design-pro/lib/HeaderSearch';
-import styles from './index.less';
-// import './index.less';
+import styles from './mainheader.less';
 
 export default class mainheader extends PureComponent {
   componentWillUnmount() {

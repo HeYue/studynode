@@ -190,7 +190,7 @@ module.exports = {
           },
           {
             test: /\.less$/,
-            include: [/common/],
+            include: [/src/],
             use: [
                     require.resolve('style-loader'),
                     {
