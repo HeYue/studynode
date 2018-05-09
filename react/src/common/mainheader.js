@@ -8,7 +8,7 @@ import NoticeIcon from 'ant-design-pro/lib/NoticeIcon';
 import HeaderSearch from 'ant-design-pro/lib/HeaderSearch';
 import styles from './mainheader.less';
 
-export default class mainheader extends PureComponent {
+export default class Mainheader extends PureComponent {
   componentWillUnmount() {
     this.triggerResizeEvent.cancel();
   }

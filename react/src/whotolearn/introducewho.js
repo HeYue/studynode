@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Layout,message } from 'antd';
-import styles from '../App.less';
+import styles from '../common/App.less';
 
 const { Content } = Layout;
 

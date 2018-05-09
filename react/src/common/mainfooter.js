@@ -1,4 +1,4 @@
-import React, { Component,Fragment } from 'react';
+import React, { Component } from 'react';
 import GlobalFooter from 'ant-design-pro/lib/GlobalFooter';
 import { Icon } from 'antd';
 
