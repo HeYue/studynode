@@ -18,9 +18,7 @@ class Introducehow extends Component {
     return (
       <div>
         <div style={{padding: '0 30px 0 30px', marginTop: 64}} className={styles.AppIntro} onClick={this.fetchUsers.bind(this)}>
-              To get started, edit <code>src/App.js</code> and save to reload. To get started, edit To get started,
-          edit To get started, edit To get started, edit To get started, edit To get started, edit To get started, edit
-          To get started, edit To get started, edit To get started, edit
+              To get started, edit <code>src/App.js</code> and save to reload.
               <br/>test here
               <br/>test here
               <br/>test here

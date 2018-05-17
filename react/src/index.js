@@ -4,7 +4,6 @@ import './index.less';
 import App from './common/App';
 import UserLayout from './common/UserLayout';
 import registerServiceWorker from './registerServiceWorker';
-// import "ant-design-pro/dist/ant-design-pro.less"
 import 'antd/dist/antd.less';
 import "ant-design-pro/dist/ant-design-pro.less";
 

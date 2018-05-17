@@ -26,9 +26,9 @@ class App extends Component {
           <Header style={{ position: 'fixed', width: '100%',  background: '#fff' }}>
             <Mainheader/>
           </Header>
-          <Content>
-            <Introducehow/>
-            <Introducewho/>
+          <Content >
+            <Introducehow />
+            <Introducewho />
             <Introducewhat/>
           </Content>
           <Footer>
